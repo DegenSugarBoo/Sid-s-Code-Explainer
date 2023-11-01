@@ -1,8 +1,8 @@
 from functools import partial
-
+import streamlit as st
 import openai
 
-openai.api_key ='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'
+openai.api_key =st.secrets["API_KEY"]
 
 
 def send_question(question: str) -> dict:
