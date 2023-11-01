@@ -4,7 +4,7 @@ from explainer import retrieve_code_explanation, retrieve_code_language
 
 
 def display_header() -> None:
-    st.image("image/logo.jpg")
+    st.image("logo.jpg")
     st.title("Welcome to Sid's Code Explainer")
     st.text("Just upload your code or copy and paste in the field below")
     st.warning("Warning: uploaded files have precendence on copied and pasted code.")
